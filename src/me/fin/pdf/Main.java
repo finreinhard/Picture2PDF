@@ -22,7 +22,7 @@ public class Main {
         System.setProperty("com.apple.mrj.application.apple.menu.about.name", "Picture2PDF");
 
         JFileChooser fileChooser = new JFileChooser();
-        fileChooser.setDialogTitle("Wähle Bilder");
+        fileChooser.setDialogTitle("Wähle Bilder...");
         fileChooser.setApproveButtonText("PDF Erstellen");
         fileChooser.setFileFilter(new FileNameExtensionFilter("Bilder", "jpg", "jpeg", "png", "gif", "bmp"));
         fileChooser.setDragEnabled(true);
